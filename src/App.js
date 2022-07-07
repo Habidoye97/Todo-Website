@@ -1,10 +1,11 @@
-
+import Header from './Components/Header';
 import './App.css';
+import React from 'react';
 
 function App() {
   return (
     <div className="App">
-      <h1>Todo Website</h1>
+      <Header/>
       
     </div>
   );
